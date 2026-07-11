@@ -106,14 +106,11 @@ uv run osm-display data --map data/map.png
 ```
 osmnx/
   pyproject.toml              # uv-managed project, deps + console scripts
-  DOCS.md                     # Design & verification notes
-  src/osm_boundary/
+  src/osmnx_tools/
     __init__.py
     extract.py                # osm-extract entry point
     display.py                # osm-display entry point
     pois.py                   # osm-pois entry point
-  data/                       # Extraction output (gitignored)
-  cache/                      # OSMnx HTTP cache (gitignored)
 ```
 
 ## How It Works

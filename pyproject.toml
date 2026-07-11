@@ -1,0 +1,26 @@
+[project]
+name = "osmnx-tools"
+version = "0.1.0"
+description = "Extract and display roads & intersections data inside OSM boundary relations using OSMnx"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "osmnx>=2.0",
+    "matplotlib>=3.7",
+    "pandas>=2.0",
+]
+
+[project.scripts]
+osm-extract = "osmnx_tools.extract:main"
+osm-display = "osmnx_tools.display:main"
+osm-pois = "osmnx_tools.pois:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/osmnx_tools"]
+
+[tool.uv]
+package = true

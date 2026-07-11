@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-07-11T15:19:26.905576+00:00",
+  "osmnx_version": "2.1.0",
+  "network_type": "drive",
+  "relations": [
+    "19260504",
+    "19260546"
+  ],
+  "total_roads": 1075,
+  "total_intersections": 519,
+  "total_road_length_km": 95.083,
+  "per_relation": [
+    {
+      "relation_id": "19260504",
+      "roads": 609,
+      "intersections": 291,
+      "total_road_length_m": 50253.42
+    },
+    {
+      "relation_id": "19260546",
+      "roads": 466,
+      "intersections": 228,
+      "total_road_length_m": 44830.06
+    }
+  ],
+  "errors": []
+}
